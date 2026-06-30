@@ -1,0 +1,14 @@
+name: conversa
+
+on:
+    push:
+        branches:
+          - main
+
+jobs:
+    escreve-commit:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Nosso primeiro workflow
+              run: echo "Nosso primeiro workflow"
